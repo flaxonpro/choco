@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>syncovery</id>
+    <version>7.87.101</version>
+    <title>Syncovery</title>
+    <owners>chocolatey</owners>
+    <authors>Super Flexible Software Ltd. and Co. KG</authors>
+    <licenseUrl>https://www.syncovery.com/license/</licenseUrl>
+    <projectUrl>https://www.syncovery.com/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/cosmouser/choco/03809da9028d2e4347114c88c98d1c0e93092847/syncovery/Syncovery_0000.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>
+Syncovery will copy your files the way you need it.
+Back up your data and synchronize PCs, Macs, servers, notebooks, and online storage space.
+
+Requires a license for activation.
+    </description>
+    <summary>Syncovery is a backup and sync tool.</summary>
+    <releaseNotes>https://www.syncovery.com/syncovery7/</releaseNotes>
+    <copyright />
+    <tags>admin backup sync copy tool storage</tags>
+    <docsUrl>https://www.syncovery.com/</docsUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
