@@ -9,7 +9,7 @@
     <authors>Super Flexible Software Ltd. and Co. KG</authors>
     <licenseUrl>https://www.syncovery.com/license/</licenseUrl>
     <projectUrl>https://www.syncovery.com/</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/cosmouser/choco/03809da9028d2e4347114c88c98d1c0e93092847/syncovery/Syncovery_0000.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/flaxonpro/choco/a1ac01cd5e27e7d6f939f4efba16ee1a9be3c5bd/syncovery/Syncovery_0000.png</iconUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>
 Syncovery will copy your files the way you need it.
