@@ -16,9 +16,9 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases
 
-    $url32   = $download_page.links | ? href -match '.exe$' | % href | select -First 1
-    $url64   = $url32 -replace 'Setup.exe$', '64Setup.exe'
-    $version = $download_page.ParsedHtml.getElementsByTagName("span") | ? innerHTML -match '^Download Syncovery' | % innerHTML | select -First 1 | %{$_.Split(" ")} | select -Index 2
+    $url64   = $download_page.links | ? href -match '.exe$' | % href | select -First 1
+    $url32   = $url64 -replace '64Setup.exe$', 'Setup.exe'
+    $version = $download_page.ParsedHtml.getElementsByTagName("span") | ? innerHTML -match '^Download Syncovery' | % innerHTML | select -First 1 | %{$_.Split(" ")} | select -Index 3
 	$version = $version -split "(?:(?i)(?<=^|\d)(?=[a-z])|(?<=[a-z])(?=$|\d))"
 	$version = $version[0] + "." + [byte][char]$version[1]
 

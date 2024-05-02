@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>syncovery</id>
-    <version>7.87.101</version>
+    <version>10.14.6.0</version>
     <title>Syncovery</title>
     <owners>chocolatey</owners>
     <authors>Super Flexible Software Ltd. and Co. KG</authors>
